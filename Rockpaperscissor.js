@@ -38,7 +38,7 @@ const getUserChoice = (userInput) => {
   }
   
   const playGame = (userChoice, computerChoice) =>{
-    userChoice = getUserChoice('bi');
+    userChoice = getUserChoice('bi'); //enter in your response here 
     computerChoice = getComputerChoice()
     console.log(userChoice + '!')
     console.log (computerChoice + '!')
